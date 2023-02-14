@@ -17,8 +17,8 @@ def main():
         inputnum = int(inputnum)
         list.append(inputnum)
         inputnum = input("input an integer (or any other symbol when done): ")
-    print(sum(list))
-    print(product(list))
+    print("sum: ", sum(list))
+    print("product: ", product(list))
 
 if __name__ == '__main__':
     main()
